@@ -1,15 +1,13 @@
 #include <iostream>
 #include "Sales_item.h"
-using namespace std;
-
 int main()
 {
-	Sales_item item1, item_temp, sum;
-	while (cin >> item1) {
-		sum = item1;
-		while (cin >> item_temp) {
-			sum += item_temp;
-		}
+	Sales_item item1, item2, item3;
+	std::cin >> item1 >> item2 >> item3;
+	if (item1.isbn() == item2.isbn() && item1.isbn() == item3.isbn()) {
+		std::cout << item1 + item2 + item3 << std::endl;
 	}
-	cout << sum << endl;
+	else {
+		std::cout << "isbn not the same" << std::endl;
+	}
 }
