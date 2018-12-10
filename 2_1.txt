@@ -1,0 +1,3 @@
+int is 2 byte; long is 4 byte; long long is 8 byte
+an unsigned type repsent only non-negative values; a signed type can represent both positive and negative values (including 0)
+a float has 6 significant digits while a double has 10

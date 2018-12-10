@@ -1,0 +1,2 @@
+a parameter should be a reference when we do not want to copy it;
+a parameter should not be a reference when we do not want to change its value

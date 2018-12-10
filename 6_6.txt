@@ -1,0 +1,1 @@
+a parameter is a variable initialized inside a function with a lifetime as long as the function's running time. a local variable is a variable defined inside a function with a lifetime as long as the function. a local static variable is a variable defined inside a function with a lifespan as long as the program

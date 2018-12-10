@@ -1,0 +1,4 @@
+(a) is not legal. too many arguments
+(b) is legal
+(c) is legal
+(d) is not legal. third argument type does not match

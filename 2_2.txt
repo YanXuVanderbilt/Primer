@@ -1,0 +1,1 @@
+I would use double for the rate since the rate is a decimal number with usually a lot of significant numbers;I will use long double for the principle since the principle is usually large ,can be both positive or negative and may contain decimal points. I will use long double for payment since payments are sometimes large and may contain decimal points.
