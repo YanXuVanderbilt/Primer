@@ -1,10 +1,10 @@
 #include <iostream>
-int main()
-{
-	typedef double wages;
-	typedef int exam_score;
-	typedef wages salary;
+typedef double wages;
+typedef wages base, *p;
 
-	salary i = 10.00;
-	std::cout << i << std::endl;
-}
+using SI = Sales_item;
+
+wages hourly, weekly;
+SI item;
+
+int main(){}
